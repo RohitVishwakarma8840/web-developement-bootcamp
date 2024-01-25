@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+   <style>
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+}
+ 
+/* here * is a universal selector which selects all the element by box sizing it we can do  */
+
+
+  
+
+
+  .container{
+   background-color:rgb(231,230,241);
+   border: 3px solid rgb(64,6,119); 
+   /* padding: 19px; */
+   margin: 34px;
+   /* we can set padding/margin for left right and top bottom 
+   padding-left: 34px;
+   padding-top:20px; */
+   /* padding/margin : top right bottom left learn as trbl to remember this is valid on both  */
+  padding: 23px 6px 40px 50px;   
+  border-radius: 23px;
+
+   width: 533px; 
+  box-sizing: border-box;
+ /* note here if you have settled width like 533px so why it is changing with padding if you increase it so to 
+ avoid this we have a concept of box sizing so by box sizing it will adjust its content such that 
+ so the width remains same */
+
+
+
+
+  /* padding/margin:   y(top/bottom)    x(right/left);   remember this important */
+   /* padding: 39px 56px;  here 39px is in y and 56px is in x */
+   /* you can have this padding : 34px 28px;   */
+
+
+  }
+
+  body{
+    background: cyan;
+  }
+
+
+   </style>
+
+
+</head>
+
+
+<body>
+<div class="container">
+<h3>This is my heading</h3>
+ <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ex quas, sequi sit cum voluptatem facere veritatis fugiat, aliquid, magnam ea perferendis odit.</p>
+</div>
+
+
+ <div class="container">
+<h3>This is my heading</h3>
+ <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ex quas, sequi sit cum voluptatem facere veritatis fugiat, aliquid, magnam ea perferendis odit.</p>
+</div>
+
+
+
+ <div class="container">
+<h3>This is my heading</h3>
+ <p id="third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ex quas, sequi sit cum voluptatem facere veritatis fugiat, aliquid, magnam ea perferendis odit.</p>
+</div>
+
+
+
+</body>
+</html>

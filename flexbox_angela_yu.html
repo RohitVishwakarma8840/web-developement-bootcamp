@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox practice angela yu course </title>
+<style>
+.container{
+    border: 2px solid red;
+   /* display: flex; */
+   display: inline-flex;
+   flex-direction: column;
+   /* gap: 60px; */
+   height: 400px;
+}
+
+/* .box{
+    flex-basis: 100px;
+}    */
+
+
+.container > *{
+    flex-basis: 100pxja;
+}
+
+
+#red{
+background-color: red;
+}
+#orange{
+background-color:orange ;
+}
+
+#yellow{
+background-color: yellow;
+}
+#green{
+background-color: green;
+}
+
+#blue{
+background-color: blue;
+}
+#indigo{
+background-color:indigo ;
+}
+
+#voilet{
+background-color:voilet ;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    
+    <div class="box" id="red">red</div>
+    <div class="box" id="orange">orange</div>
+    <div class="box" id="yellow">yellow</div>
+    <div class="box" id="green">green</div>
+    <div class="box" id="blue">blue</div>
+    <div class="box" id="indigo">indigo</div>
+    <div class="box" id="voilet">voilet</div>
+
+
+
+
+</div>
+
+
+    
+</body>
+</html>

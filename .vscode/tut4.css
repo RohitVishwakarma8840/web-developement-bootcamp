@@ -1,0 +1,23 @@
+.container{
+
+/* width: 400px; */
+ height: 600px; 
+
+border: 7px solid red;
+margin: 2px;
+/* overflow: hidden; */
+/* overflow: scroll; */
+/* overflow: auto; */
+/* THIS will take care of it automaticallly overflow auto do it automatically  */
+
+}
+
+.img1{
+  float: right;
+
+}
+
+.img2{
+  float: left;
+
+}
